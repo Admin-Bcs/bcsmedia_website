@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-
+import { Link } from "react-router-dom";
 import logoBcsmedia from "../assets/image/bcs-media/logo_bcsmedia_white.png";
 import topfooter from "../assets/image/bcs-media/footer-top.svg";
 import emailjs from 'emailjs-com';
@@ -26,23 +26,28 @@ export class Footer extends Component {
           <div className="pd-sm section-padding">
             <div className="container">
               <div className="row justify-content-center">
+                {/* <div className="footer-logo">
+                  <a href="index.html">
+                    <img src={logoBcsmedia} alt="" width="120" />
+                  </a>
+                </div> */}
                 <div className="col-lg-7 text-center">
                   <div className="section-title">
                     <div className="home-3-hero-title footer-text">
-                      <h1
+                      <h2
                         className="wow fadeInUp"
                         data-wow-delay="0.5s"
                         data-wow-duration="1s"
                       >
                         ¿Tiene preguntas en mente? <strong>contáctanos</strong>
-                      </h1>
+                      </h2>
                     </div>
                     <div
                       className="subscribe-form footer-subscribe-form wow fadeInUp"
                       data-wow-delay="0.4s"
                       data-wow-duration="1s"
                     >
-                      <form id="mc-form-footer">
+                      {/* <form id="mc-form-footer">
                         <input
                           className="mr-md-3"
                           name="email"
@@ -50,7 +55,10 @@ export class Footer extends Component {
                           id="email"
                         />
                         <button type="submit" onSubmit={sendEmail} className="btn-footer">ENVIAR</button>
-                      </form>
+                      </form> */}
+                      <Link to="/contact" as="/contact">
+                        <button>Contáctanos</button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -60,43 +68,47 @@ export class Footer extends Component {
 
           <div className="footer-menu">
             <div className="container">
-              <div className="row">
-                <div className="col-lg-3">
-                  <div className="footer-logo">
-                    <a href="index.html">
-                      <img src={logoBcsmedia} alt="" width="120" />
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-9">
+              <div className="row justify-content-center">
+                {/* <div className="col-lg-9">
                   <div className="footer-mainmenu">
                     <ul>
+
+                      <li>
+                        <a href="home">Home</a>
+                      </li>
                       <li>
                         <a href="about">About</a>
                       </li>
                       <li>
                         <a href="services">Services</a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="#">Customers</a>
                       </li>
+
                       <li>
-                        <a href="blog.html">Blog</a>
-                      </li>
-                      <li>
-                        <a href="#">Pricing</a>
+                        <a href="clientes">Clients</a>
                       </li>
                       <li>
                         <a href="contact">Contact</a>
                       </li>
                     </ul>
                   </div>
+                  <br />
+                  <br />
+                  
+                </div> */}
+                <div>
+                  <p>
+                    Copyright 2021 <a
+                    >Bcs-Media</a>. All
+										Rights Reserved.</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="copyright-area">
+          {/*  <div className="copyright-area">
             <div className="container">
               <div className="row">
                 <div className="col-lg-6">
@@ -120,7 +132,7 @@ export class Footer extends Component {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </Fragment>
     );

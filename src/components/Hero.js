@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-
 import HomeAnimated from "../assets/image/bcs-media/animations/home/home";
-
+import { Link } from "react-router-dom";
 export class Hero extends Component {
   render() {
     return (
@@ -20,7 +19,7 @@ export class Hero extends Component {
                   data-wow-duration="1s"
                 >
                   <strong className="font-primary color-primary">Haz realidad tus ideas</strong>
-                  
+
                 </h1>
                 {/* <p className="wow fadeInUp" data-wow-delay="0.3s">
                   Tus Ideas
@@ -30,15 +29,17 @@ export class Hero extends Component {
                   data-wow-delay="0.4s"
                   data-wow-duration="1s"
                 >
-                  <form id="mc-form">
-                    <input
+
+                  {/* <input
                       type="email"
                       placeholder="Correo Electronico"
                       id="mc-email"
                       className="mr-md-3"
-                    />
-                    <button type="submit">contáctanos</button>
-                  </form>
+                    /> */}
+                  <Link to="/contact" as="/contact">
+                    <button>Contáctanos</button>
+                  </Link>
+
                 </div>
               </div>
             </div>

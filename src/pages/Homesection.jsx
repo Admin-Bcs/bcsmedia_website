@@ -20,7 +20,7 @@ export default class Homesection extends Component {
               >
                 <h2 className="txt-title">
                   <strong>
-                  Llegue al público de una manera
+                    Llegue al público de una manera
                   precisa y eficaz.</strong>
                 </h2>
                 <br></br>
@@ -103,7 +103,7 @@ export default class Homesection extends Component {
                       aria-controls="contact"
                       aria-selected="false"
                     >
-                       ¿Cómo lo hacemos?
+                      ¿Cómo lo hacemos?
                     </a>
                   </li>
                 </ul>
@@ -198,7 +198,7 @@ export default class Homesection extends Component {
                     data-wow-duration="1s"
                   >
                     <p>
-                    ¿Qué hacemos? En bcs-media hacemos que su inversión tenga
+                      ¿Qué hacemos? En bcs-media hacemos que su inversión tenga
                       la mayor eficiencia y rentabilidad dando un medio digital
                       en el cual puedas pautarte y posicionar tu marca o
                       producto hacia los consumidores, hacemos que todos los
@@ -212,7 +212,7 @@ export default class Homesection extends Component {
                     </p>
 
 
-                    
+
                     <a href="#" className="read-more-btn">
                       Learn More <i className="far fa-arrow-right" />
                     </a>
@@ -238,27 +238,27 @@ export default class Homesection extends Component {
                     data-wow-duration="1s"
                   >
                     <p>
-                    <p>
-                      "Creatividad, calidad y pasión" en cada proyecto han sido
-                      algunos de los valores con los que definimos nuestros años
-                      de trayectoria.
+                      <p>
+                        "Creatividad, calidad y pasión" en cada proyecto han sido
+                        algunos de los valores con los que definimos nuestros años
+                        de trayectoria.
                     </p>
-                    <p>
-                      <b>Creatividad:</b> El proceso de tener ideas originales
+                      <p>
+                        <b>Creatividad:</b> El proceso de tener ideas originales
                       que aporten valor es lo que nos caracteriza, resolviendo
                       problemas de una manera original.
                     </p>
-                    <p>
-                      Calidad: Lo que buscamos en cada uno de nuestros proyectos
-                      es exceder las expectativas del cliente siendo muy
-                      exigentes con nosotros mismos, incorporando los más altos
-                      estándares a cada proyecto.
+                      <p>
+                        Calidad: Lo que buscamos en cada uno de nuestros proyectos
+                        es exceder las expectativas del cliente siendo muy
+                        exigentes con nosotros mismos, incorporando los más altos
+                        estándares a cada proyecto.
                     </p>
-                    <p>
-                      Pasión: Es el pilar de nuestra compañía y el motor de
-                      nuestro éxito, con nuestro entusiasmo y pasión lograremos
+                      <p>
+                        Pasión: Es el pilar de nuestra compañía y el motor de
+                        nuestro éxito, con nuestro entusiasmo y pasión lograremos
                       resultados extraordinarios en su empresa..{" "}
-                    </p>
+                      </p>
                     </p>
                     <a href="#" className="read-more-btn">
                       Learn More <i className="far fa-arrow-right" />
