@@ -728,6 +728,9 @@ body {
 
 @media only screen and (max-width:767px) {
 
+    
+
+
     .service-7-area-2.padding-bottom {
         padding-bottom: 0;
     }
@@ -1492,6 +1495,9 @@ body {
 }
 
 @media only screen and (min-width:480px) and (max-width:767px) {
+   
+
+
     .all-hero-img img.hero-2 {
         right: -10px;
         width: 190px;
